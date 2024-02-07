@@ -58,8 +58,9 @@ dir_rex=${project_root}/rex.project
 # the sysroot being created
 dir_sysroot=${dir_artifacts}/T_SYSROOT
 
-user="phanes"
-group="phanes"
+# set this manually because rex runs as root for its setgid/setuid
+build_user="bagira"
+build_group="bagira"
 
 # if we're being supplied parameters we assume it's being called by make
 # and need to recall make with all appropriate vars set

@@ -44,3 +44,8 @@ echo -e "\e[31m$HORSE\e[0m"
 echo
 echo "Welcome to Pyrois, the build system for Dark Horse Linux."
 echo
+
+echo running as: $build_user:$build_group
+echo
+echo
+echo
