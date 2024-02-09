@@ -1,0 +1,15 @@
+{
+	"plan":
+	[
+		{
+			"name":			"coreutils version check", 
+			"dependencies": [ null ],
+			"comment":		"check bash version"
+		},
+		{
+			"name":			"bash version check", 
+			"dependencies": [ null ],
+			"comment":		"check bash version"
+		}
+	]
+}

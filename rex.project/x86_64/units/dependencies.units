@@ -1,0 +1,40 @@
+{
+	"units": [
+	{
+		"name":						"bash version check",
+		"target":					"components/dependencies/bash.bash 3.2",
+		"is_shell_command":			true,
+		"shell_definition":			"bash",
+		"force_pty":				true,
+		"set_working_directory":	false,
+		"working_directory":		"",
+		"rectify":					false,
+		"rectifier":				"",
+		"active":					true,
+		"required":					true,
+		"set_user_context":			true,
+		"user":         			"bagira",
+		"group":					"bagira",
+		"supply_environment":		true,
+		"environment":  			"environments/dependencies.env.bash"
+	},
+	{
+		"name":						"coreutils version check",
+		"target":					"components/dependencies/coreutils.bash 7.0",
+		"is_shell_command":			true,
+		"shell_definition":			"bash",
+		"force_pty":				true,
+		"set_working_directory":	false,
+		"working_directory":		"",
+		"rectify":					false,
+		"rectifier":				"",
+		"active":					true,
+		"required":					true,
+		"set_user_context":			true,
+		"user":         			"bagira",
+		"group":					"bagira",
+		"supply_environment":		true,
+		"environment":  			"environments/dependencies.env.bash"
+	}
+ ]
+}
