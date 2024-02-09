@@ -47,6 +47,10 @@ download_patches:
 	set -e
 	${dir_make}/download_patches.sh
 
+dependencies:
+	set -e
+	sudo /usr/bin/env -i bash -c ". ./project_config.sh && ${dir_make}/dependencies.sh"
+
 # kicks off rex
 build_stage1:
 	set -e
@@ -121,6 +125,7 @@ all:
 	make clean && \
 	make dirs && \
 	make install_rex && \
+	make dependencies && \
 	make download_patches && \
 	make download_sources && \
 	make build_stage1 && \

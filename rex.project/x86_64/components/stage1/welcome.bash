@@ -44,7 +44,10 @@ echo -e "\e[31m$HORSE\e[0m"
 echo
 echo "Welcome to Pyrois, the build system for Dark Horse Linux."
 echo
-
+>&2 echo
+>&2 echo STDERR Pipe Check:
+>&2 echo The welcome screen ran, and echoed this to stderr
+>&2 echo
 echo running as: $build_user:$build_group
 echo
 echo
