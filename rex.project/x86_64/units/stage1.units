@@ -13,8 +13,8 @@
 		"active":					true,
 		"required":					true,
 		"set_user_context":			true,
-		"user":         			"bagira",
-		"group":					"bagira",
+		"user":         			"$build_user",
+		"group":					"$build_user",
 		"supply_environment":		true,
 		"environment":  			"environments/stage1.env.bash"
 	},
@@ -49,8 +49,8 @@
         "active":       			true,
         "required":     			true,
 		"set_user_context": 		true,
-        "user":         			"bagira",
-        "group":           "bagira",
+        "user":         			"$build_user",
+        "group":           "$build_group",
 		"supply_environment":		true,
         "environment":  			"environments/stage1.env.bash"
     },
@@ -67,8 +67,8 @@
         "active":       			true,
         "required":     			true,
 		"set_user_context": 		true,
-        "user":         			"bagira",
-        "group":           "bagira",
+        "user":         			"$build_user",
+        "group":           "$build_group",
 		"supply_environment":		true,
         "environment":  			"environments/stage1.env.bash"
     },
@@ -85,8 +85,8 @@
         "active":       			true,
         "required":     			true,
 		"set_user_context": 		true,
-        "user":         			"bagira",
-        "group":           "bagira",
+        "user":         			"$build_user",
+        "group":           "$build_group",
 		"supply_environment":		true,
         "environment":  			"environments/stage1.env.bash"
     },
@@ -103,8 +103,8 @@
         "active":       			true,
         "required":     			true,
 		"set_user_context": 		true,
-        "user":         			"bagira",
-        "group":           "bagira",
+        "user":         			"$build_user",
+        "group":           "$build_group",
 		"supply_environment":		true,
         "environment":  			"environments/stage1.env.bash"
     },
@@ -121,8 +121,8 @@
         "active":       			true,
         "required":     			true,
 		"set_user_context": 		true,
-        "user":         			"bagira",
-        "group":           "bagira",
+        "user":         			"$build_user",
+        "group":           "$build_group",
 		"supply_environment":		true,
         "environment":  			"environments/stage1.env.bash"
     },
@@ -139,8 +139,8 @@
         "active":       			true,
         "required":     			true,
 		"set_user_context": 		true,
-        "user":         			"bagira",
-        "group":           "bagira",
+        "user":         			"$build_user",
+        "group":           "$build_group",
 		"supply_environment":		true,
         "environment":  			"environments/stage1.env.bash"
     }
