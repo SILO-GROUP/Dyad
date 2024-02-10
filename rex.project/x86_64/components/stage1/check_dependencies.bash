@@ -4,9 +4,6 @@ set -u
 
 export LC_ALL=C
 
-echo
-echo "Checking bash..."
-bash --version | head -n1 | cut -d" " -f2-4
 
 echo
 echo "Checking /bin/sh path"

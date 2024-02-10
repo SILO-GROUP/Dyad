@@ -4,6 +4,8 @@ source ./project_config.sh
 TERM=xterm-256color
 COLORTERM=truecolor
 LC_ALL=C
+PATH=${CROSSTOOLS_DIR}/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin
+
 
 function echofail() {
 	echo
@@ -42,10 +44,35 @@ ver_kernel()
 	fi
 }
 
+sym_check() {
+	# the name of the binary/symlink we're checking as it appears in PATH
+	app="$1"
+
+	# the name of the binary we expect it to point to
+	expected_target="$2"
+	
+	# the basename of the target of the symlink (if it is one)
+	target="$(basename $(readlink -f $(which $app)))"
+	if [[ "$target" == "$expected_target" ]]; then
+		printf "OK:\t$app -> $expected_target\n";
+		return 0;
+	else
+		if [[ "$target" == '' ]]; then
+			printf "ERROR: '$app' is not present on this system.\n";
+			return 1;
+		else
+			printf "ERROR: '$app' points to '$target' instead of '$expected_target'.\n"
+			return 1;
+		fi
+	fi
+}
+
 alias_check() {
 	if $1 --version 2>&1 | grep -qi $2; then
 		printf "OK:    %-4s is $2\n" "$1";
+		return 0;
 	else
 		printf "ERROR: %-4s is NOT $2\n" "$1"; 
+		return 1;
 	fi
 }

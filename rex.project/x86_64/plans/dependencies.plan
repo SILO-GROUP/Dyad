@@ -80,6 +80,18 @@
 		{
 			"name":			"xz version check", 
 			"dependencies": [ null ]
+		},
+		{
+			"name":			"awk-gawk check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"yacc-bison check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"sh-bash check", 
+			"dependencies": [ null ]
 		}
 	]
 }
