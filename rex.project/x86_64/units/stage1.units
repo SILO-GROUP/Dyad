@@ -5,7 +5,7 @@
 		"target":					"components/stage1/welcome.bash",
 		"is_shell_command":			true,
 		"shell_definition":			"bash",
-		"force_pty":				true,
+		"force_pty":				false,
 		"set_working_directory":	false,
 		"working_directory":		"",
 		"rectify":					false,

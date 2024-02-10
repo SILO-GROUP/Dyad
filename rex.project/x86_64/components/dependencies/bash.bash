@@ -4,7 +4,10 @@ set -u
 export LC_ALL=C
 
 expected_version="$1"
+real_name="bash"
 app="bash"
 
-ver_check $app $expected_version || echofail "$app $expected_version check failed."
+ver_check $real_name $app $expected_version || \
+	echofail "$real_name $expected_version check failed."
+
 exit $?

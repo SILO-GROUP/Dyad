@@ -2,14 +2,84 @@
 	"plan":
 	[
 		{
-			"name":			"coreutils version check", 
-			"dependencies": [ null ],
-			"comment":		"check bash version"
+			"name":			"bash version check", 
+			"dependencies": [ null ]
 		},
 		{
-			"name":			"bash version check", 
-			"dependencies": [ null ],
-			"comment":		"check bash version"
+			"name":			"coreutils version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"binutils version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"bison version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"diffutils version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"findutils version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"gawk version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"GCC version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"g++ version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"grep version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"gzip version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"m4 version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"make version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"patch version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"perl version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"python3 version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"sed version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"tar version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"texinfo version check", 
+			"dependencies": [ null ]
+		},
+		{
+			"name":			"xz version check", 
+			"dependencies": [ null ]
 		}
 	]
 }
