@@ -13,7 +13,7 @@ set -u
 APPNAME="glibc"
 
 # the version of this application
-VERSION="2.37"
+VERSION="2.38"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:
@@ -176,7 +176,7 @@ mode_build_pass1() {
 		--prefix=/usr \
 		--host=${T_TRIPLET} \
 		--build=$(../scripts/config.guess) \
-		--enable-kernel=3.2 \
+		--enable-kernel=4.14 \
 		--with-headers=${T_SYSROOT}/usr/include \
 		libc_cv_slibdir=/usr/lib
 

@@ -12,7 +12,7 @@ set -a
 APPNAME="glibc"
 
 # the version of this application
-VERSION="2.37"
+VERSION="2.38"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:
