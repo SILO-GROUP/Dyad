@@ -12,7 +12,7 @@ set -a
 APPNAME="bc"
 
 # the version of this application
-VERSION="6.2.4"
+VERSION="6.6.0"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

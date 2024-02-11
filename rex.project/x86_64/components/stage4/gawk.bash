@@ -12,7 +12,7 @@ set -a
 APPNAME="gawk"
 
 # the version of this application
-VERSION="5.2.1"
+VERSION="5.2.2"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

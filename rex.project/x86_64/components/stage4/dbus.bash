@@ -12,7 +12,7 @@ set -a
 APPNAME="dbus"
 
 # the version of this application
-VERSION="1.14.6"
+VERSION="1.14.8"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

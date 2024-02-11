@@ -12,7 +12,7 @@ set -a
 APPNAME="gcc"
 
 # the version of this application
-VERSION="12.2.0"
+VERSION="13.2.0"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

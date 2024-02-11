@@ -13,9 +13,9 @@ set -u
 APPNAME="gcc"
 
 # the version of this application
-VERSION="12.2.0"
+VERSION="13.2.0"
 MPFR_V="4.2.0"
-GMP_V="6.2.1"
+GMP_V="6.3.0"
 MPC_V="1.3.1"
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

@@ -14,7 +14,7 @@ APPNAME="binutils"
 
 # the version of this application
 #VERSION="2.25"
-VERSION="2.40"
+VERSION="2.41"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

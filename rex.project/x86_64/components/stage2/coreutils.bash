@@ -13,7 +13,7 @@ set -u
 APPNAME="coreutils"
 
 # the version of this application
-VERSION="9.1"
+VERSION="9.3"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

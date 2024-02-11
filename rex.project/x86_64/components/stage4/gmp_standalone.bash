@@ -12,7 +12,7 @@ set -a
 APPNAME="gmp"
 
 # the version of this application
-VERSION="6.2.1"
+VERSION="6.3.0"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

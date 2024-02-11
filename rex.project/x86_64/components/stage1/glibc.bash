@@ -224,7 +224,7 @@ mode_install_pass1() {
 	rm -v a.out
 	assert_zero $?
 	
-	${CROSSTOOLS_DIR}/libexec/gcc/${T_TRIPLET}/12.2.0/install-tools/mkheaders
+	${CROSSTOOLS_DIR}/libexec/gcc/${T_TRIPLET}/13.2.0/install-tools/mkheaders
 	assert_zero $?
 	
 

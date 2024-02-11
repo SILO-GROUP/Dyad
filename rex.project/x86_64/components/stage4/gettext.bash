@@ -12,7 +12,7 @@ set -u
 APPNAME="gettext"
 
 # the version of this application
-VERSION="0.21.1"
+VERSION="0.22"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

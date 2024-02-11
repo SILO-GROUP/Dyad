@@ -12,7 +12,7 @@ set -a
 APPNAME="file"
 
 # the version of this application
-VERSION="5.44"
+VERSION="5.45"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:

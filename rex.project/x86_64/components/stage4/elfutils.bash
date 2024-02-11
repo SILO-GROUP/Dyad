@@ -12,7 +12,7 @@ set -a
 APPNAME="elfutils"
 
 # the version of this application
-VERSION="0.188"
+VERSION="0.189"
 
 # ----------------------------------------------------------------------
 # Variables and functions sourced from Environment:
