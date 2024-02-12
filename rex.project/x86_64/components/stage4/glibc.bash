@@ -137,8 +137,8 @@ mode_build() {
 	assert_zero $?
 
 	# TODO make this a patch
-	sed '/width -=/s/workend - string/number_length/' -i stdio-common/vfprintf-process-arg.c
-    assert_zero $?
+	#sed '/width -=/s/workend - string/number_length/' -i stdio-common/vfprintf-process-arg.c
+    #assert_zero $?
 	
 	logprint "Entering temp build dir..."
 	mkdir -p build
@@ -153,7 +153,7 @@ mode_build() {
 	../configure \
 		--prefix=/usr \
 		--disable-werror \
-		--enable-kernel=3.2 \
+		--enable-kernel=4.14 \
 		--enable-stack-protector=strong \
 		--with-headers=/usr/include \
 		libc_cv_slibdir=/usr/lib

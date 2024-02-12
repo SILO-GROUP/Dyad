@@ -133,7 +133,7 @@ mode_build() {
 	assert_zero $?
 		
 	logprint "Pre-install patching..."
-	patch -Np1 -i ${PATCHES_DIR}/coreutils-9.1-i18n-1.patch
+	patch -Np1 -i ${PATCHES_DIR}/coreutils-${VERSION}-i18n-1.patch
 	assert_zero $?
 	
 	logprint "Preconfiguring ${APPNAME}..."

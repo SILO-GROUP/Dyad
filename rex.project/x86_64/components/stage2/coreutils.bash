@@ -139,7 +139,8 @@ mode_build_temp() {
 		--host=${T_TRIPLET} \
 		--build=$(build-aux/config.guess) \
 		--enable-install-program=hostname \
-		--enable-no-install-program=kill,uptime
+		--enable-no-install-program=kill,uptime \
+		gl_cv_macro_MB_CUR_MAX_good=y
 	assert_zero $?
 	
 	logprint "Compiling..."

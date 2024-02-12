@@ -155,7 +155,7 @@ mode_build_pass1() {
 	
 	# patches
 	logprint "Applying patches..."
-	patch -Np1 < "${PATCHES_DIR}/glibc-2.37-fhs-1.patch"
+	patch -Np1 < "${PATCHES_DIR}/glibc-${VERSION}-fhs-1.patch"
 	assert_zero $?
 		
 	mkdir -p build
